@@ -12,7 +12,7 @@ namespace ScadaAPI.Models
 
         public decimal SensorData { get; set; }
 
-        public DateTime SensorTime { get;}
+        public DateTime SensorTime { get; internal set; }
         /*
 
         public DateTime AddedStamp;
